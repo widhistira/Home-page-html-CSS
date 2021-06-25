@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(.idea/img/back1b.jpg) top right no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: page;
+}
+	/*--------------------------------------------------------------
+    # Navigation Menu
+    --------------------------------------------------------------*/
+	.navbar {
+		position: fixed;
+		height: 80px;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.4);
+		font-size: 20px;
+		align-items: center;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.navbar .logo {
+		align-items: center;
+		display: flex;
+		width: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+		justify-content: center;
+		color: #fffcfc;
+
+	}
+
+	.navbar ul {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.navbar ul:nth-child(2){
+		width: 50%;
+
+	}
+	.navbar ul:last-child{
+		width: 40%;
+	}
+
+
+	.navbar ul li {
+		list-style: none;
+		margin-right: 2px;
+		display: inline-block;
+		line-height: 2px;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navbar ul li a {
+		font-size: 15px;
+		font-family: "Poppins", sans-serif;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 20px 20px;
+		text-decoration: none;
+		transition: .8s;
+
+	}
+
+	.navbar ul li a.active {
+		visibility: visible;
+		width: 25px;
+	}
+
+	.navbar ul li a:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.wrapper .center {
+		position: absolute;
+		left: 50%;
+		top: 55%;
+		transform: translate(-50%, -50%);
+		font-family: sans-serif;
+		user-select: none;
+	}
+
+	.center h1 {
+		color: white;
+		font-size: 60px;
+		width: 800px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.center p {
+		color: white;
+		font-size: 25px;
+		font-weight: normal;
+		margin-top: 25px;
+		width: 800px;
+		text-align: center;
+	}
+
+	.center .buttons {
+		margin: 60px 300px;
+	}
+
+	.buttons button {
+		height: 50px;
+		width: 140px;
+		font-size: 20px;
+		font-weight: 600;
+		color: #070707;
+		background: darkorange;
+		cursor: pointer;
+		border: 1px solid #fffcfc;
+		border-radius: 25px;
+		transition: .4s;
+	}
+
+	.bottom {
+		position: absolute;
+		bottom: -100%;
+		left: 90%;
+		transform: translate(-48%);
+		color: #ffffff;
+		justify-content: center;
+
+	}
+
+	#icon {
+		font-size: 35px;
+		transform: translate(-46%);
+		margin-top: -10px;
+	}
+
+/*--------------------------------------------------------------
+# section2
+--------------------------------------------------------------*/
+.contain{
+	background: url(.idea/img/beck2.jpg) top right no-repeat;
+	background-size: cover;
+	height: 110vh;
+	width: 100%;
+	position: page;
+}
+
+.nav-menu .font {
+	padding-left: 280px;
+	padding-top: 290px;
+	
+}
+.font p {
+	color: white;
+	font-size: 30px;
+	font-family: "Times New Roman";
+	text-align: left;
+
+}
+
+.font h1 {
+	font-size: 70px;
+	font-family: "Times New Roman";
+	font-weight: 700;
+	color: #fffcfc;
+}
+
+.pict {
+	position: absolute;
+	bottom: -90%;
+	left: 60%;
+	transform: translate(-50%);
+}
+
+#icon2 {
+	position: absolute;
+	bottom: -60%;
+	left: 32%;
+	transform: translate(-49%);
+	transition: .4s;
+	cursor: pointer;
+}
+#icon3 {
+	position: absolute;
+	bottom: -62%;
+	right: 11%;
+	transform: translate(-49%);
+	transition: .4s;
+	cursor: pointer;
+}
+
+.lingkaran1{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	bottom: -88%;
+	left: 50%;
+	transform: translate(800%);;
+
+}
+.lingkaran1{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	bottom: -88%;
+	left: 50%;
+	transform: translate(800%);;
+
+}
+.lingkaran2{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	bottom: -88%;
+	left: 35%;
+	transform: translate(1300%);;
+
+}
+.lingkaran3{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	bottom: -88%;
+	left: 40%;
+	transform: translate(1300%);;
+
+}
+.lingkaran4{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	bottom: -88%;
+	left: 60%;
+	transform: translate(650%);;
+
+}
+.lingkaran5{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	bottom: -88%;
+	left: 55%;
+	transform: translate(720%);;
+
+}
+/*--------------------------------------------------------------
+# section3
+--------------------------------------------------------------*/
+.contain2{
+	background: url(.idea/img/back3.jpg) top right no-repeat;
+	background-size: cover;
+	height: 110vh;
+	width: 100%;
+	position: page;
+}
+.nav-menu2 .font2 {
+	padding-left: 1100px;
+	padding-top: 230px;
+
+}
+.font2 p {
+	color: white;
+	font-size: 30px;
+	font-family: "Times New Roman";
+	text-align: left;
+
+}
+
+.font2 h1 {
+	font-size: 70px;
+	font-family: "Times New Roman";
+	font-weight: 700;
+	color: #fffcfc;
+
+}
+
+.center2 {
+	padding-left: 1150px;
+	padding-top: 100px;
+
+}
+.center2 p {
+	color: white;
+	font-size: 20px;
+	font-family: "Times New Roman";
+	text-align: left;
+	margin-top: 20px;
+
+}
+
+.center2 h3 {
+	font-size: 30px;
+	font-family: "Times New Roman";
+	color: darkorange;
+
+}
+
+.font3 h3 {
+	padding-top: 70px;
+	margin-top: 10px;
+}
+
+.lingkaran6 {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	left: -10%;
+	margin-top: -300px;
+
+}
+.lingkaran7 {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	left: -10%;
+	margin-top: -1px;
+}
+.lingkaran8 {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #fffcfc;
+	border-radius: 100%;
+	left: -10%;
+	margin-top: 95px;
+}
+.garis_verikal{
+	border-left: 3px white solid;
+	height: 135px;
+	margin-left: -65px;
+
+
+}
+/*--------------------------------------------------------------
+# section4
+--------------------------------------------------------------*/
+.contain3 {
+	background: url(.idea/img/back4.jpg) top right no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: page;
+}
+
+.nav-menu3 .font4  {
+	padding-left: 200px;
+	margin-top: -35px;
+
+}
+.font3 p{
+	color: white;
+	font-size: 24px;
+	font-family: "Times New Roman";
+	margin-left: 700px;
+	padding-top: 300px;
+
+}
+
+.font4 h1 {
+	font-size: 70px;
+	font-family: "Times New Roman";
+	color: #fffcfc;
+}
+
