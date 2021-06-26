@@ -136,6 +136,7 @@
 		transform: translate(-48%);
 		color: #ffffff;
 		justify-content: center;
+		display: grid;
 
 	}
 
@@ -143,6 +144,7 @@
 		font-size: 35px;
 		transform: translate(-46%);
 		margin-top: -10px;
+		display: grid;
 	}
 
 /*--------------------------------------------------------------
@@ -154,11 +156,14 @@
 	height: 110vh;
 	width: 100%;
 	position: page;
+	display: grid;
 }
 
-.nav-menu .font {
-	padding-left: 280px;
-	padding-top: 290px;
+.contain .nav-menu .font {
+	margin-left: 280px;
+	margin-top: 290px;
+	display: inline-flex;
+	justify-content: flex-start;
 	
 }
 .font p {
@@ -174,6 +179,8 @@
 	font-family: "Times New Roman";
 	font-weight: 700;
 	color: #fffcfc;
+	margin-top: 45px;
+	margin-left: -220px;
 }
 
 .pict {
@@ -181,6 +188,8 @@
 	bottom: -90%;
 	left: 60%;
 	transform: translate(-50%);
+	flex-direction: column;
+	border-radius: 50px
 }
 
 #icon2 {
@@ -281,10 +290,12 @@
 	height: 110vh;
 	width: 100%;
 	position: page;
+	display: grid;
 }
 .nav-menu2 .font2 {
 	padding-left: 1100px;
 	padding-top: 230px;
+	display: grid;
 
 }
 .font2 p {
@@ -292,6 +303,7 @@
 	font-size: 30px;
 	font-family: "Times New Roman";
 	text-align: left;
+	display: grid;
 
 }
 
@@ -300,6 +312,7 @@
 	font-family: "Times New Roman";
 	font-weight: 700;
 	color: #fffcfc;
+	display: grid;
 
 }
 
@@ -338,6 +351,7 @@
 	border-radius: 100%;
 	left: -10%;
 	margin-top: -300px;
+	display: grid;
 
 }
 .lingkaran7 {
@@ -349,6 +363,7 @@
 	border-radius: 100%;
 	left: -10%;
 	margin-top: -1px;
+	display: grid;
 }
 .lingkaran8 {
 	position: relative;
@@ -359,11 +374,13 @@
 	border-radius: 100%;
 	left: -10%;
 	margin-top: 95px;
+	display: grid;
 }
 .garis_verikal{
 	border-left: 3px white solid;
 	height: 135px;
 	margin-left: -65px;
+	display: grid;
 
 
 }
@@ -397,4 +414,76 @@
 	font-family: "Times New Roman";
 	color: #fffcfc;
 }
+
+table, td , th{
+	margin-left: 200px;
+	margin-top: 200px;
+}
+td {
+	border: 1px solid gray;
+	color: white;
+	width: 30%;
+	height: 30%;
+	
+}
+
+table {
+	border: 1px solid gray;
+	width: 40%;
+	height: 30%;
+
+}
+
+th {
+	font-size: 20px;
+	border: 1px solid gray;
+	color: darkorange;
+
+}
+table {
+	width: 40%;
+	height: 30%;
+	border-collapse: collapse;
+
+}
+
+/*--------------------------------------------------------------
+# section5
+--------------------------------------------------------------*/
+
+.contain4 {
+	background: url(.idea/img/back6.jpg) top right no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: page;
+}
+.font4 h1 {
+	font-size: 70px;
+	font-family: "Times New Roman";
+	color: #fffcfc;
+
+}
+.font4 p {
+	color: white;
+	font-size: 30px;
+	font-family: "Times New Roman";
+	text-align: left;
+
+}
+
+
+.buttons {
+	height: 50px;
+	width: 140px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #070707;
+	background: darkorange;
+	cursor: pointer;
+	border: 1px solid #fffcfc;
+	border-radius: 25px;
+	transition: .4s;
+}
+
 
