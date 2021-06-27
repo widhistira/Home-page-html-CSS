@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="">
+<html lang="en">
+	
+</html>
 <head>
-<!--	<meta charset="UTF-8">-->
-	<title>Web Binar Challenge</title>
+	<meta charset="UTF-8">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+	
+		<title>Web Binar Challenge</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" scr="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -38,57 +45,65 @@
 	</section><!-- End section 1 -->
 
 <!-- ======== section 2 ======= -->
-<section class="contain">
-			<nav class="nav-menu">
-				<div class="font">
-				<p>what's so special?</p>
-				<h1>The Games</h1>
-					<div class="pict">
-						<img src=".idea/img/gunting.jpg">
-						 </div>
-					   <div class="icon2">
-					<p id="icon2">&#9665;</p>
-				<div class="icon3">
-			<p id="icon3">&#9655;</p>
-				<div class="lingkaran1"></div>
-				<div class="lingkaran2"></div>
-				<div class="lingkaran3"></div>
-				<div class="lingkaran4"></div>
-				<div class="lingkaran5"></div>
+<section id="contain">
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<h3>What's So Special?</h3>
 			</div>
 		</div>
-   </div>
-</nav>
-
-	</section><!-- End section 2 -->
+		<div class="row pt-2">
+			<div class="col-md-5">
+				<h1>THE GAMES</h1>
+			</div>
+		</div>	
+			<div class="col-md-8">
+				<div class="pict">
+					<img src=".idea/img/scissor.jpg">
+					<div class="icon2">
+					<p id="icon2">&#9665;</p>
+					</div>
+				</div>
+				<div class="icon3">
+				<p id="icon3">&#9655;</p>
+				<div class="round1"></div>
+				<div class="round2"></div>
+				<div class="round3"></div>
+				<div class="round4"></div>
+				<div class="round5"></div>
+			</div>	
+	</div>
+</section><!-- End section 2>
 
 <!-- ======== section 3 ======= -->
-<section class="contain2">
-	<nav class="nav-menu2">
-		<div class="font2">
-			<p>what's so special?</p>
-			<h1>FEATURES</h1>
-		</div>
-		<div class="center2">
-			<h3>TRADITIONAL GAME</h3>
-			<p>If you miss your childhood, we provide many traditional games here</p>
-			<div class="font3">
-		<h3>GAME SUIT</h3>
-		<h3>TBD</h3>
+<section id="contain2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7"></div>
+			<div class="col-md-5">
+				<h3>WHAT'S SO SPECIAL</h3>
+				<h1>FEATURES</h1>
+				<div class="align">
+					<p class="font">TRADITIONAL GAMES</p>
+					<p class="font1">If you Miss your chilhood provide many traditional games here</p>
+					<p class="font">GAME SUIT</p>
+					<p class="font">TBD</p>
+				</div>
 			</div>
-			  <div class="lingkaran6"></div>
-			   <div class="garis_verikal"></div>
-			<div class="lingkaran7"></div>
-		<div class="lingkaran8"></div>
-   </div>
-</nav>
-
-
-	</section><!-- End section 3 -->
+				<div class="icon">
+					<div class="round6"></div>
+					<div class="garis_vertikal"></div>
+					<div class="round7"></div>
+					<div class="round8"></div>
+				</div>	
+			</div>
+		</div>
+	</div>	
+</section><!-- End section 3 -->
 
 <!-- ======== section 4 ======= -->
 <section class="contain3">
-	<nav class="nav-menu3">
+	<div class="menu-font3">
 		<div class="font3">
 			<p>Can My Computer Run This Game</p>
 			  <div class="font4">
@@ -97,40 +112,177 @@
 		</div>
 	</div>
  </nav>
-	<table>
-		<tr>
-			<th>OS:</th>
-			<td> Windows 7 64-bit only (no OSX support at this time</td>
-			<th>PROCESSOR:</th>
-			<td>Intel Core 2 Duo @2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</td>
-		</tr>
-		<tr>
-			<th>MEMORY:</th>
-			<td> 4 GB RAM</td>
-			<th>STORAGE:</th>
-			<td>8 GB Available space</td>
-		</tr>
-		<th>GRAPHICS:</th>
-		<td>NVIDIA Geforce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5</td>
-		</tr>
-	</table>
-
+	<div class="row">
+		<div class="col-md-6">
+			<table class="table table-bordered">
+				<tr>
+					<td>
+						<p class="requir">OS:</p>
+						<p>Windows 7 64-bit only (No OSX support at this time)</p>
+					</td>
+					<td>
+						<p class="requir">PROCESSOR:</p>
+						<p>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p class="requir">MEMORY:</p>
+						<p>4 GB RAM</p>
+					</td>
+					<td>
+						<p class="requir">STORAGE:</p>
+						<p>8 GB available space</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="requir">GRAPHICS:</p>
+						<p> NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+					</td>
+				</table>
+			</div>
+			<div class="col-md-7"></div>
+		</div>
+	</div>
 	</section> <!-- End section 4 -->
 
 <!-- ======== section 5 ======= -->
-<section class="contain4">
-	<nav class="nav-menu4">
-		<div class="font4">
-			<h1>TOP SCORES</h1>
-			<p>this top score various games provided on this platform</p>
-			<div class="buttons">
-				<button>see more</button>
+<section id="comment">
+	<div class="container ">
+		<div class="row justify-content-center ">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-1">
+						<div class="card">
+							<div class="col-md-5"> <img src=".idea/img/com.jpg"></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-2">
+				<div class="font5">
+					<h1>TOP SCORES</h1>
+					<p>THIS TOP SCORE FROM VARIOUS GAMES PROVIDE ON THIS PLATFORM</p>
+					<div class="buttons2">
+						<h3>see more</h3>
+					</div>
+							<div class="card2">
+								<div class="col-md-4"> <img src=".idea/img/comm2.jpg"></div>
+								<div class="col-md-2 mt-8">
+								</div>
+								<div class="col-md-2"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-3">
+				<div class="col-md-3">
+				</div>
+				<div class="col-md-3">
+							<div class="card3">
+								<div class="col-md-4"> <img src=".idea/img/comm3.jpg"></div>
+								<div class="col-md-2 mt-8">
+								</div>
+								<div class="col-md-2">
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+</section><!-- endSection 5 -->
+
+<!-- ======== section 6 ======= -->
+<section id="last">
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+			</div>
+			<div class="col-md" style="padding-top: 500px;">
+				<p>Want to Stay in touch?</p>
+				<div class="row">
+					<div class="col-md">
+						<h1>NEWSLETTER </h1>
+					</div>
+					<div class="col-md"></div>
+				</div>
+				<div class="row">
+					<div class="col-md"></div>
+					<div class="col-md-8">
+						<h1>SUBSCRIBE</h1>
+					</div>
+				</div>
+				<p>In order to start receiving our news, all you have to do is enter your email address. Everything
+					else will be taken care of by us. We will send you emails containing information about game. We
+					don’t spam.</p>
+				<div class="row">
+					<div class="col-md">
+						<div class="mb-3">
+
+							<input type="email" class="form-control mt-1" id="exampleFormControlInput1"
+								placeholder="widhistira79@gmail.com">
+						</div>
+					</div>
+					<div class="buttons3">
+						<h3>Subscribe Now</h3>
+							<div class="picts">
+								<img src=".idea/img/skull.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</nav>
-</section> <!-- End section 5 -->
+	</div>
+</section><!-- end section 6 -->
 
-</div>
+<!-- Footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 text-center">
+				<div class="navbawah">
+					<ul>
+						<li><a href="">MAIN</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">GAME FEATURES</a></li>
+						<li><a href="">SYSTEM REQUIREMENTS</a></li>
+						<li><a href="">QUOTES</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-5 text-center">
+				<img src=".idea/img/facebook.svg" alt="">
+				<img src=".idea/img/twitter.svg" alt="">
+				<img src=".idea/img/Vector.svg" alt="">
+				<img src=".idea/img/twitch.svg" alt="">
+			</div>
+		</div>
+		<hr>
+		<div class="row  justify-content-center">
+			<div class="col-md-6 text-center"><span>© 2018 Your Games, Inc. All Rights Reserved</span></div>
+			<div class="col-md-6 text-center">
+				<div class="navbawah2">
+					<ul>
+						<li><a href="">POLICY |</a></li>
+						<li><a href="">TERMS OF SERVICES |</a></li>
+						<li><a href="">CODE OF CONDUCT</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</footer><!-- End Footer -->
 
 </body>
+
 </html>

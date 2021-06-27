@@ -7,9 +7,9 @@
 .wrapper{
 	background: url(.idea/img/back1b.jpg) top right no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 120vh;
 	width: 100%;
-	position: page;
+
 }
 	/*--------------------------------------------------------------
     # Navigation Menu
@@ -21,7 +21,7 @@
 		top: 0;
 		left: 0;
 		background: rgba(0, 0, 0, 0.4);
-		font-size: 20px;
+		font-size: 30px;
 		align-items: center;
 		display: flex;
 		justify-content: flex-start;
@@ -31,7 +31,7 @@
 		align-items: center;
 		display: flex;
 		width: 50px;
-		padding-left: 50px;
+		padding-left: 100px;
 		padding-right: 50px;
 		justify-content: center;
 		color: #fffcfc;
@@ -48,11 +48,11 @@
 	}
 
 	.navbar ul:nth-child(2){
-		width: 50%;
+		width: 55%;
 
 	}
 	.navbar ul:last-child{
-		width: 40%;
+		width: 30%;
 	}
 
 
@@ -67,7 +67,7 @@
 	}
 
 	.navbar ul li a {
-		font-size: 15px;
+		font-size: 22px;
 		font-family: "Poppins", sans-serif;
 		color: rgba(255, 255, 255, 0.7);
 		padding: 20px 20px;
@@ -89,7 +89,7 @@
 	.wrapper .center {
 		position: absolute;
 		left: 50%;
-		top: 55%;
+		top: 75%;
 		transform: translate(-50%, -50%);
 		font-family: sans-serif;
 		user-select: none;
@@ -101,6 +101,7 @@
 		width: 800px;
 		font-weight: bold;
 		text-align: center;
+
 	}
 
 	.center p {
@@ -110,15 +111,17 @@
 		margin-top: 25px;
 		width: 800px;
 		text-align: center;
+
+	
 	}
 
 	.center .buttons {
-		margin: 60px 300px;
+		margin: 130px 300px;
 	}
 
 	.buttons button {
 		height: 50px;
-		width: 140px;
+		width: 180px;
 		font-size: 20px;
 		font-weight: 600;
 		color: #070707;
@@ -131,12 +134,11 @@
 
 	.bottom {
 		position: absolute;
-		bottom: -100%;
-		left: 90%;
+		bottom: -80%;
+		left: 91%;
 		transform: translate(-48%);
 		color: #ffffff;
 		justify-content: center;
-		display: grid;
 
 	}
 
@@ -144,243 +146,217 @@
 		font-size: 35px;
 		transform: translate(-46%);
 		margin-top: -10px;
-		display: grid;
+		position: relative;
+		
 	}
 
 /*--------------------------------------------------------------
 # section2
 --------------------------------------------------------------*/
-.contain{
-	background: url(.idea/img/beck2.jpg) top right no-repeat;
+#contain{
+	background: url(.idea/img/back2.jpg) top right no-repeat;
 	background-size: cover;
-	height: 110vh;
+	height: 100vh;
 	width: 100%;
-	position: page;
-	display: grid;
-}
-
-.contain .nav-menu .font {
-	margin-left: 280px;
-	margin-top: 290px;
-	display: inline-flex;
-	justify-content: flex-start;
 	
 }
-.font p {
+
+#contain h1 , #contain h3 {
+	margin-bottom: 10px;
+	margin-left: -230px;
+}
+
+#contain h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 60px;
+	font-weight: bold;
 	color: white;
-	font-size: 30px;
-	font-family: "Times New Roman";
-	text-align: left;
+	
+  }
+  #contain h3 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: white;
+	margin-left: -230px;
+	margin-top: 310px;
 
-}
-
-.font h1 {
-	font-size: 70px;
-	font-family: "Times New Roman";
-	font-weight: 700;
-	color: #fffcfc;
-	margin-top: 45px;
-	margin-left: -220px;
-}
+  }
 
 .pict {
-	position: absolute;
-	bottom: -90%;
-	left: 60%;
-	transform: translate(-50%);
-	flex-direction: column;
-	border-radius: 50px
+	position: flex;
+	margin-top: -70px;
+	margin-left: 200px;
+	border-radius: 50px;
+	
+	
 }
 
 #icon2 {
-	position: absolute;
-	bottom: -60%;
-	left: 32%;
+	position: flex;
+	margin-top: -280px;
+	margin-left: 180px;
 	transform: translate(-49%);
 	transition: .4s;
 	cursor: pointer;
+	color: white;
+	font-size: 30px;
+	
 }
 #icon3 {
-	position: absolute;
-	bottom: -62%;
-	right: 11%;
+	position: flex;
+	margin-top: -50px;
+	margin-left: 1220px;
 	transform: translate(-49%);
 	transition: .4s;
 	cursor: pointer;
+	color: white;
+	font-size: 30px;
 }
 
-.lingkaran1{
-	position: absolute;
+.round1{
+	position: flex;
 	width: 20px;
 	height: 20px;
 	background: transparent;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	bottom: -88%;
-	left: 50%;
+	margin-left: 450px;
+	margin-top: 190px;
 	transform: translate(800%);;
 
 }
-.lingkaran1{
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	background: transparent;
-	border: 1px solid #fffcfc;
-	border-radius: 100%;
-	bottom: -88%;
-	left: 50%;
-	transform: translate(800%);;
-
-}
-.lingkaran2{
-	position: absolute;
+.round2{
+	position: flex;
 	width: 20px;
 	height: 20px;
 	background: white;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	bottom: -88%;
-	left: 35%;
+	margin-left: 280px;
+	margin-top: -20px;
 	transform: translate(1300%);;
 
 }
-.lingkaran3{
-	position: absolute;
+.round3{
+	position: flex;
 	width: 20px;
 	height: 20px;
 	background: transparent;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	bottom: -88%;
-	left: 40%;
+	margin-left: 425px;
+	margin-top: -20px;
 	transform: translate(1300%);;
 
 }
-.lingkaran4{
-	position: absolute;
+.round4{
+	position: flex;
 	width: 20px;
 	height: 20px;
 	background: transparent;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	bottom: -88%;
-	left: 60%;
+	margin-left: 630px;
+	margin-top: -20px;
 	transform: translate(650%);;
 
 }
-.lingkaran5{
-	position: absolute;
+.round5{
+	position: flex;
 	width: 20px;
 	height: 20px;
 	background: transparent;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	bottom: -88%;
-	left: 55%;
+	margin-left: 680px;
+	margin-top: -20px;
 	transform: translate(720%);;
 
 }
 /*--------------------------------------------------------------
 # section3
 --------------------------------------------------------------*/
-.contain2{
+#contain2{
 	background: url(.idea/img/back3.jpg) top right no-repeat;
 	background-size: cover;
-	height: 110vh;
-	width: 100%;
-	position: page;
-	display: grid;
-}
-.nav-menu2 .font2 {
-	padding-left: 1100px;
-	padding-top: 230px;
-	display: grid;
+	height: 120vh;
+	background-position: 100% 100%;
+
 
 }
-.font2 p {
+#contain2 .row {
+	padding-top: 300px;
+	padding-left: 200px;
+  }
+  
+  #contain2 h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100px;
+	font-weight: bold;
 	color: white;
+	margin-bottom: 60px;
+  }
+  
+  #contain2 h3 {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 30px;
-	font-family: "Times New Roman";
-	text-align: left;
-	display: grid;
-
-}
-
-.font2 h1 {
-	font-size: 70px;
-	font-family: "Times New Roman";
-	font-weight: 700;
-	color: #fffcfc;
-	display: grid;
-
-}
-
-.center2 {
-	padding-left: 1150px;
-	padding-top: 100px;
-
-}
-.center2 p {
+	font-weight: bold;
 	color: white;
-	font-size: 20px;
-	font-family: "Times New Roman";
-	text-align: left;
-	margin-top: 20px;
+  }
+  
+  #contain2 p.font {
+	font-family: 'Times New Roman', Times, serif;
+	color: #fcb344;
+	margin-bottom: 25px;
+	font-size: 40px;
+  }
+  
+  #contain2 p.font1 {
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	margin-bottom: 100px;
+	font-size: 25px;
+  }
 
-}
-
-.center2 h3 {
-	font-size: 30px;
-	font-family: "Times New Roman";
-	color: darkorange;
-
-}
-
-.font3 h3 {
-	padding-top: 70px;
-	margin-top: 10px;
-}
-
-.lingkaran6 {
+.round6 {
 	position: relative;
 	width: 20px;
 	height: 20px;
 	background: white;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	left: -10%;
-	margin-top: -300px;
-	display: grid;
+	left: 50%;
+	margin-top: -400px;
+	
 
 }
-.lingkaran7 {
+.round7 {
 	position: relative;
 	width: 20px;
 	height: 20px;
 	background: transparent;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	left: -10%;
-	margin-top: -1px;
-	display: grid;
+	left: 50%;
+	margin-top: -px;
+
 }
-.lingkaran8 {
+.round8 {
 	position: relative;
 	width: 20px;
 	height: 20px;
 	background: transparent;
 	border: 1px solid #fffcfc;
 	border-radius: 100%;
-	left: -10%;
-	margin-top: 95px;
-	display: grid;
+	left: 50%;
+	margin-top: 75px;
+	
 }
-.garis_verikal{
+.garis_vertikal{
 	border-left: 3px white solid;
-	height: 135px;
-	margin-left: -65px;
-	display: grid;
+	height: 228px;
+	margin-left: 555px;
+	
 
 
 }
@@ -390,19 +366,19 @@
 .contain3 {
 	background: url(.idea/img/back4.jpg) top right no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 120vh;
 	width: 100%;
 	position: page;
 }
 
-.nav-menu3 .font4  {
+.menu-font3 .font4  {
 	padding-left: 200px;
 	margin-top: -35px;
 
 }
 .font3 p{
 	color: white;
-	font-size: 24px;
+	font-size: 28px;
 	font-family: "Times New Roman";
 	margin-left: 700px;
 	padding-top: 300px;
@@ -410,80 +386,176 @@
 }
 
 .font4 h1 {
-	font-size: 70px;
+	font-size: 80px;
 	font-family: "Times New Roman";
 	color: #fffcfc;
 }
 
-table, td , th{
+
+.row .table, td , th{
+	font-family: 'Times New Roman', Times, serif;
 	margin-left: 200px;
 	margin-top: 200px;
-}
-td {
+	border-collapse: collapse;
+	width: 40%;
+	height: 60%;
 	border: 1px solid gray;
-	color: white;
-	width: 30%;
-	height: 30%;
 	
 }
-
-table {
-	border: 1px solid gray;
-	width: 40%;
-	height: 30%;
-
-}
-
-th {
-	font-size: 20px;
-	border: 1px solid gray;
-	color: darkorange;
-
-}
-table {
-	width: 40%;
-	height: 30%;
-	border-collapse: collapse;
-
-}
+td p {
+	color: white;
+	font-size: 25px;
+  }
+  
+  td p.requir {
+	color: #fcb344;
+	font-size: 30px;
+	font-weight: bold;
+  }
 
 /*--------------------------------------------------------------
 # section5
 --------------------------------------------------------------*/
 
-.contain4 {
+#comment {
 	background: url(.idea/img/back6.jpg) top right no-repeat;
 	background-size: cover;
 	height: 100vh;
-	width: 100%;
-	position: page;
-}
-.font4 h1 {
-	font-size: 70px;
-	font-family: "Times New Roman";
-	color: #fffcfc;
-
-}
-.font4 p {
+	width: 102%;
+  }
+  
+  #comment h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100px;
+	font-weight: bold;
 	color: white;
-	font-size: 30px;
-	font-family: "Times New Roman";
-	text-align: left;
+  }
+  #comment p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: white;
+  }
 
-}
-
-
-.buttons {
-	height: 50px;
-	width: 140px;
-	font-size: 20px;
-	font-weight: 600;
-	color: #070707;
+  .font5 {
+	  margin-left: 500px;
+	  margin-top: 100px;
+  }
+  
+  .card {
+	 margin-left: 100px;
+	 margin-top: 300px;
+  }
+  .card2 {
+	margin-left: 1100px;
+	margin-top: -200px;
+ }
+ .card3 {
+	margin-left: 300px;
+	margin-top: 200px;
+ }
+  .card-header img {
+	border-radius: 10%;
+  }
+  
+  .card-header h5 {
+	color: #ffb548;
+	font-weight: bold;
+  }
+  .buttons2 {
+	height: 40px;
+	width: 300px;
+	font-size: 100px;
+	text-align: center;
 	background: darkorange;
 	cursor: pointer;
 	border: 1px solid #fffcfc;
-	border-radius: 25px;
+	border-radius: 20px;
 	transition: .4s;
 }
+  
 
+/*--------------------------------------------------------------
+# section6
+--------------------------------------------------------------*/
+  #last {
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-color: #080a0b;
+	height: 80vh;
+  }
+  
+  #last h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 80px;
+	font-weight: bold;
+	color: #fff;
+  }
+  #last p {
+	  color: #fff;
+  }
 
+  .picts{
+	  margin-left: -1700px;
+	  margin-top: -500px;
+  }
+  #last p h1{
+	  margin-bottom: 200px;
+  }
+  .buttons3{
+	height: 45px;
+	width: 300px;
+	font-size: 80px;
+	text-align: center;
+	background: darkorange;
+	cursor: pointer;
+	border: 1px solid #fffcfc;
+	border-radius: 20px;
+	transition: .4s;
+  }
+
+  /*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+  footer {
+	background-color: #080a0b;
+  }
+  .navbawah ul li {
+	display: inline-block;
+	padding: 1rem;
+	color: #fff;
+  }
+  
+  .navbawah ul li a {
+	text-decoration: none;
+	color: #fff;
+  }
+  
+  .navbawah ul li a:hover {
+	text-decoration: none;
+	color: grey;
+	
+  }
+  
+  footer .col-md-5 img {
+	padding: 1rem;
+  }
+  
+  footer hr {
+	margin-top: -10px;
+	border: 1px solid white;
+  }
+  
+  .navbawah2 ul li {
+	display: inline-block;
+  }
+  
+  .navbawah2 ul li a {
+	text-decoration: none;
+	color: #fff;
+  }
+  
+  .navbawah2 ul li a:hover {
+	text-decoration: none;
+	color: solid grey;
+  }
+  
